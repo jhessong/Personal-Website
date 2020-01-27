@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+	font-family: Cambria, Arial, Helvetica, sans-serif;
+}
+
+.header {
+	padding: 40px;
+	text-align: center;
+	background: #500000;
+	color: white;
+}
+
+.header h1 {
+	font-size: 50px;
+}
+
+.stroke {
+	color: white;
+	text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+/* https://stackoverflow.com/questions/4919076/outline-effect-to-text used to get outline effect */
+
+.navbar {
+	overflow: hidden;
+	background-color: #707373;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 12px 18px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color:#332C2C;
+	color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  flex: 75%;
+  background-color: #d6d3c4; /* White background color */
+  padding: 20px; /* Some padding */
+  text-align: left;
+}
+
+.side {
+  flex: 25%;
+  background-color: #003c71; /* Grey background color */
+  padding: 20px; /* Some padding */
+}
+
+.nav a:link {
+	color:green;
+}
+
+background-image {
+	opacity: 0.5;
+}
+
+.bg {
+	background-image: url("https://www.learfield.com/wp-content/uploads/2018/07/TAM31-2.jpg");
+	height: 62vh;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+
+<body style="background-color:#d6d3c4;">
+
+<div class="header">
+    <h1>Jacob Hessong, Class of 2021</h1>
+</div>
+
+<div class="navbar">
+	<a href="index.html">Home</a>
+	<a href="about_me.html">About Me</a>
+	<a href="professional image.html">Professional Image</a>
+	<a href="portfolio.html">Portfolio</a>
+	<a href="service.html">Service</a>
+</div>
+
+<div class="bg stroke">
+	<h1 style="text-align:center;color: white;">Welcome to my home page!</h1>
+	<p style="text-align:center;color: white;">Here you can find information about me and my professional, technical, and service experience.</p>
+	<img src="me.JPEG" alt="My picture" style="width:300px;height:300px;" class="center">
+</div>
+	
+</body>
+
+
+</html>

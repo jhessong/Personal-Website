@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>About Me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+	font-family: Cambria, Arial, Helvetica, sans-serif;
+}
+
+.header {
+	padding: 20px;
+	text-align: left;
+	background: #500000;
+	color: white;
+}
+
+.header h1 {
+	font-size: 25px;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #707373;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 12px 18px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color:#332C2C;
+	color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 25%;
+  background-color: #003c71; /* Grey background color */
+  padding: 20px; /* Some padding */
+  min-height: 100vh;
+}
+
+.main {
+  flex: 75%;
+  background-color: #d6d3c4; /* White background color */
+  padding: 20px; /* Some padding */
+  text-align: left;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+
+<body style="background-color:#d6d3c4;">
+
+<div class="header">
+	<h1>About Me</h1>
+</div>
+
+<div class="navbar">
+	<a href="index.html">Home</a>
+	<a href="about_me.html">About Me</a>
+	<a href="professional image.html">Professional Image</a>
+	<a href="portfolio.html">Portfolio</a>
+	<a href="service.html">Service</a>
+</div>
+
+<div class="row">
+	<div class="side">
+    	<img src="me.JPEG" alt="My picture" style="width:300px;height:300px;" class="center">
+    </div>
+    <div class="main">
+    	<h3>Jacob Hessong '21</h3>
+        <p>Howdy! My name is Jacob Hessong, and I am a junior Computer Science major 
+		from Dallas, TX. I enjoy learning about computers, playing video games, 
+		watching movies, and listening to music. I have built my own personal desktop
+		that I use for playing video games as well as coding and general use. Building 
+		this computer during high school as well as the Intro to Programming class I 
+		took in high school sparked my interest in computers and is what primarily led 
+		me to pursuing a career in computer science.</p>
+    </div>
+</div>
+</body>
+
+
+</html>

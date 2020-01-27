@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+	font-family: Cambria, Arial, Helvetica, sans-serif;
+}
+
+.header {
+	padding: 20px;
+	text-align: left;
+	background: #500000;
+	color: white;
+}
+
+.header h1 {
+	font-size: 25px;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #707373;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 12px 18px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color:#332C2C;
+	color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 25%;
+  background-color: #003c71; /* Grey background color */
+  padding: 20px; /* Some padding */
+  min-height: 100vh;
+}
+
+.main {
+  flex: 75%;
+  background-color: #d6d3c4; /* White background color */
+  padding: 20px; /* Some padding */
+  text-align: left;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+
+<body style="background-color:#d6d3c4;">
+
+<div class="header">
+	<h1>Portfolio</h1>
+</div>
+
+<div class="navbar">
+	<a href="index.html">Home</a>
+	<a href="about_me.html">About Me</a>
+	<a href="professional image.html">Professional Image</a>
+	<a href="portfolio.html">Portfolio</a>
+	<a href="service.html">Service</a>
+</div>
+
+<div class="row">
+	<div class="side">
+    	<img src="me.JPEG" alt="My picture" style="width:300px;height:300px;" class="center">
+    </div>
+    <div class="main">
+        <h2>Experience and Goals</h2>
+		<p>In my experience with Computer Science, I have taken classes such as <a href="https://compassxe-ssb.tamu.edu/StudentRegistrationSsb/ssb/tamuPublicProfile/viewSyllabus?crn=31240&term=201831">Intro to
+		Program Design and Concepts</a>, <a href="https://compassxe-ssb.tamu.edu/StudentRegistrationSsb/ssb/tamuPublicProfile/viewSyllabus?crn=22891&term=201831">Discrete Structures of Computing</a> (Discrete Math), <a href="https://compassxe-ssb.tamu.edu/StudentRegistrationSsb/ssb/tamuPublicProfile/viewSyllabus?crn=23974&term=201911">Data 
+		Structures and Algorithms</a>, <a href="https://compassxe-ssb.tamu.edu/StudentRegistrationSsb/ssb/tamuPublicProfile/viewSyllabus?crn=10937&term=201931">Computer Organization</a>, and Programming Languages, and
+		am currently taking <a href="http://faculty.cse.tamu.edu/tanzir/sp20/313/">Intro to Computer Systems</a> and <a href="http://people.tamu.edu/~rob.light/spring2020/csce315/">Programming Studio</a>. These 
+		classes have taught me the basics of C++, Scheme, and Java, as well as given me 
+		background in program and algorithm design and analysis, processor design, and 
+		the basics of how programming languages operate and communicate with the 
+		processor. Along with the languages previously mentioned, I have some 
+		experience working with C# and Python, although not as extensive as my 
+		experience with the others. Outside of school, I have worked as an intern in 
+		the IT department for <a href="https://bioworldmerch.com/">Bioworld Merchandising</a> 
+		in Dallas, Texas. This has provided me with experience of working as part of a 
+		team in a real world working environment and communicating technical information
+		with people in other departments with less technical experience and knowledge, 
+		as well more general problem solving skills. My goal with Computer Science is to
+		learn as much as I can and use my experience in the real world to make an impact on the 
+		world. While most of my experience at this point is in the classroom, so many 
+		different parts of society today rely heavily on computers and present me 
+		endless opportunity to translate the knowledge I have and will accumulate to 
+		something that will allow me to help people, even in a way that may not be 
+		visible to most people. As of right now, my interests lie primarily in the 
+		fields of software engineering and cybersecurity, although operating systems 
+		and AI also interest me. Further into my college career, I will be taking 
+		courses in all of these disciplines, giving me background knowledge to learn 
+		and adapt to anything that I am needed to do.</p>
+		
+		<p>My GitHub account with some of my work in school can be found <a href="https://github.com/jhessong">
+		here</a>.</p>
+    </div>
+</div>
+</body>
+
+
+</html>
